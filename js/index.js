@@ -18,19 +18,14 @@ $(document).ready(function(){
 let prevScroll = window.pageYOffset
 window.onscroll = function(){  
     currentScroll = window.pageYOffset
-    if(prevScroll > currentScroll && $(document).scrollTop() < 30){//fixed up
-        $("nav").removeClass("fixed-top")
-        $("nav .nav-link").css("color","#f1f1f1")
-    }
-    else if(prevScroll > currentScroll){ //scroll up
+    if(prevScroll > currentScroll){ //scroll up
         $(".my-bg").css("opacity","1")
-        $("nav").addClass("fixed-top")
     }
     else{//down
         $(".my-bg").css("opacity","0")
     }
     prevScroll = currentScroll
-} 
+}
 $(document).ready(function(){
     $('.owl-carousel').owlCarousel({
         loop:true,
