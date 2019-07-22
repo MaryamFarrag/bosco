@@ -192,37 +192,27 @@ nav a:hover{
 #about h2{
   color:rgb(63, 63, 63);
 }
-
-#about .cv button.btn{
-    background-color: rgb(247, 222, 4);
-    border:rgb(247, 222, 4) solid 1px;
-}
-#about .cv button:hover{
-    background-color:rgb(117, 79, 22);  
-    border:rgb(253,78,78) solid 1px;
-}
-#about .cv button:hover a{
-    color:#f1f1f1;
-}
-#about .cv a{
-    color:rgb(70, 70, 70);
-    text-decoration: none;
-}
-#about .cv p{
-    color:rgb(117, 116, 116);
-    font-size:26px;
-}
-#portfolio{
-    background-color: #f1f1f1;
+#spec{
+    background-color: rgb(222, 154, 38,.2);
     position: relative;
 }
-#portfolio h1{
-  color:rgb(61, 61, 61);
+#spec img{
+  width:120px;
+  height:120px;
+  border-radius:50%;
 }
-#portfolio h1:after{
+#spec h2{
+  font-family: 'Butterfly Kids', cursive;
+  font-size:50px;
+  color:rgb(24, 23, 23);
+}
+#spec h1{
+  color:rgb(63, 63, 63);
+}
+#spec h1:after{
   content: ' ';
   position: absolute;
-  background-color: rgb(253, 78, 78);
+  background-color: rgb(224, 45, 45);
   width:30px;
   height: 30px;
   margin-left:15px;
@@ -239,58 +229,11 @@ nav a:hover{
     transform: scale(1.2);
   }
 }
-#portfolio .layer{
-  position: fixed;
-  background-color: rgba(0,0,0,.5);
-  top:0;
-  bottom: 0;
-  left:0;
-  right:0;
-  z-index: 1000;
-  display: none;
-}
-#portfolio .layer .info{
-  background-color: #f1f1f1;
-  padding:2px;
-  margin: 20px auto;
-  position: relative;
-}
-#portfolio .layer h2{
-  color:rgb(70, 70, 70);
-}
-#portfolio .layer p, #portfolio .layer span{
-  color:rgb(117, 116, 116);
-}
-#portfolio .layer a{
-  color:rgb(247, 222, 4);
-}
-#portfolio .layer .info i{
-  font-size:30px;
-  color:rgb(247, 222, 4);
-  position: absolute;
-  top:10px;
-  right:20px;
-  cursor: pointer;
-}
-#portfolio .project{
-  border: 1px solid rgba(253, 78, 78,.4);
-  cursor: pointer;
-}
-#portfolio .project .img{
-  overflow: hidden;
-}
-#portfolio .project:hover img{
-  transform: scale(1.2);
-}
-#portfolio  .project header{
-  background-color: rgb(243, 197, 197);
-  color:rgb(70, 70, 70);
-}
 .owl-carousel .owl-nav button.owl-next{
   position: absolute;
-  color:rgb(247, 222, 4);
+  color:rgb(222, 154, 38);
   right:-70px;
-  top:45%;
+  top:30%;
   font-size:80px;
   padding:0 30px 0 30px!important;
   margin:10px 10px;
@@ -298,9 +241,9 @@ nav a:hover{
 }
 .owl-carousel .owl-nav button.owl-prev{
   position: absolute;
-  color:rgb(247, 222, 4);
+  color:rgb(222, 154, 38);
   left:-70px;
-  top:45%;
+  top:30%;
   font-size:80px;
   padding:0 30px 0 30px!important;
   margin:10px 10px;
